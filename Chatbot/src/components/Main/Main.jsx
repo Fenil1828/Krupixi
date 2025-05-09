@@ -85,7 +85,7 @@ const Main = () => {
                     <input onChange={(e)=>setInput(e.target.value)}
                     value={input}
                     type="text" name="" id="" placeholder='Ask Krupixi' />
-                    <div>
+                    <div className='inputimg' >
                         <img src={gallary} alt="" />
                         <img src={mike} alt="" />
                         {input?<img onClick={()=>onSent(input)} src={send} alt="" />:null}

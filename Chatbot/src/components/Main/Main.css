@@ -25,7 +25,7 @@
 }
 
 .greet{
-    margin: 35px 0px;
+    margin: 25px 0px;
     font-size: 56px;
     color: #c4c7c5;
     font-weight: 500;
@@ -101,7 +101,12 @@
 
 .searchbox img{
     width: 24px;
+    /* margin-right: 20px; */
     cursor: pointer;
+}
+
+.inputimg{
+    margin-right: 2px;
 }
 
 .searchbox input{
@@ -226,16 +231,27 @@
     grid-template-columns: repeat(2,minmax(180px,1fr));
     gap: 15px;
     padding: 20px;
-    padding-bottom: 40px;
+    /* padding-bottom: 0px; */
     }
     .searchbox input{
-        width: 250px;
+        width: 210px;
+        padding: 15px;
     }
     .searchbox{
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .bottom-info{
         padding-bottom: 15px;
     }
+    .searchbox img{
+        width: 30px;
+    }
+    .inputimg{
+        margin-right: 10px;
+    }
+    .greet{
+        margin: 15px 0px;
+    }
+    
 
 }
