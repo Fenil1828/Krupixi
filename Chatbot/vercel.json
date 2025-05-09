@@ -2,6 +2,16 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
+  "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/",
+      "status": 200
+    },
+    {
+      "handle": "filesystem"
+    }
+  ],
   "build": {
     "env": {
       "ENABLE_VC_BUILD": "1"
