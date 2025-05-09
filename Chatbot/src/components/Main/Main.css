@@ -238,10 +238,11 @@
         padding: 15px;
     }
     .searchbox{
-        margin-bottom: 20px;
+        /* margin-top: 10px; */
     }
     .bottom-info{
-        padding-bottom: 15px;
+        /* padding-bottom: 15px; */
+        margin-bottom: 5px;
     }
     .searchbox img{
         width: 30px;
